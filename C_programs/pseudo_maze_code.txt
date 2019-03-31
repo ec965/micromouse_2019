@@ -1,0 +1,8 @@
+struct: cell
+  X,Y coordinates
+  wall for North,South,East,West
+
+distance maze array: generalized maze without knowing walls
+wall maze array: fill in values of walls and probability on first run through of Maze
+
+flood: function that looks at all values in th

@@ -1,0 +1,32 @@
+gcc file.c -ansi -std=c99 -Wall -o file.exe
+
+USE AS LITTLE RECURSION AS POSSIBLE
+structs
+	cell - 4 walls, distance
+	coord - cordinates
+
+functions
+	distance - how far a cell is from another cell
+
+	distance to goal - how far is the current cell from the end cell
+	//distance is the number on the cells added up
+	 - at goal? - check if we are at the goal; distance == 0
+
+	update distances -
+		1. if all cells around current cell are larger than current cell
+		2. add current cell to stack
+		3. current cell should be open neighbor +1
+		4. if it is not then set current cell to that value
+		5. push all neighbors onto the stack and check them
+
+	check bound - is the cell we are looking at part within the boundaries?
+
+flood fill - 
+
+void loop
+	check walls
+	choose direction
+	if direction is a cardinal direction
+		move
+	if direction is zero
+		flood fill - update distances
