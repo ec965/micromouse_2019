@@ -17,7 +17,7 @@ void off();
 //speed variables
 double speed_M1;
 double speed_M2;
-double new_speed_M2
+double new_speed_M2;
 
 //encoder varibles and functions
 //variables to track pulses for PID

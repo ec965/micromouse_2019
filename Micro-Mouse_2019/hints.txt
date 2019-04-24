@@ -1,0 +1,5 @@
+for delay:
+  pulsing emiiters so recivers only look at the right value
+  time constants -> ramp up and ramp down is not instantious, wait for emmiiter to turn on before looking at reciever
+
+@sanchit-sina

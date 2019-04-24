@@ -36,7 +36,7 @@ void loop() {
 
 void forward(){
    Serial.println("forward");
-   speed = 255;
+   speed = 50;
    analogWrite(motor1[0], speed);
    digitalWrite(motor1[1], HIGH);
    digitalWrite(motor1[2], LOW);
@@ -47,7 +47,7 @@ void forward(){
 
 void reverse(){
   Serial.println("reverse");
-  speed = 255;
+  speed = 50;
   analogWrite(motor1[0], speed);
   digitalWrite(motor1[1], LOW);
   digitalWrite(motor1[2], HIGH);
